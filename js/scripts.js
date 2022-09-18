@@ -32,5 +32,13 @@ function Player(playerName) {
 }
 
 function dieRoll() {
-  this.rollCount = Math.floor(Math.random() * 6) + 1; 
+  rollCount = Math.floor(Math.random() * 6) + 1; 
+}
+
+function addTotalScore() {
+  if (rollCount === 1) {
+    return this.currentTotal = 0;
+  } else {
+    return currentTotal += rollCount;
+  }
 }
