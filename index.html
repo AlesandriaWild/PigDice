@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html lan="eng-US">
-  <title> Pig Dice </title>
-  <scripts src="js/scripts.js"></scripts>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <head>
+    <title> Pig Dice </title>
+    <scripts src="js/scripts.js"></scripts>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
   <body>
-    
+    <div class ="container">
+      <h1> Pig Dice!</h1>
+    </div>
+    <form id="game">
+      <button type="submit" id="btn">Start a game of Pig Dice!</button>
+    </form>
+    <div class="row">
+      <div class="container col-4">
+        <p>Player One's Current Score:</p>
+      </div>
+      <div class="container col-4">
+        <p>Player Two's Curent Score:</p>
+      </div>
+      <div class="container col-4">
+        The rules of Pig Dice are:
+        <ol>
+          <li>each turn, player rolls die until 1 or player "holds", 1 = no score.</li>
+          <li>if any other number rolled, add to turn total and continues.</li>
+          <li>"Hold" turn total is added to score then goes to next player.</li>
+          <li>first player to 100 = winner.</li>
+        </ol>
+      </div>
+    </div>
   </body>
 </html>

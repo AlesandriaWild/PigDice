@@ -11,7 +11,7 @@ PigDice.prototype.activePlayer = function () {
     playerOne.hasDice = true;
     playerTwo.hasDice = false;
     activePlayer = playerTwo
-  } else if (this.playerTwo.hasDice === true) {
+  } else if (playerTwo.hasDice === true) {
     playerOne.hasDice = false;
     playerTwo.hadDice = true;
     activePlayer = playerOne
@@ -41,4 +41,10 @@ function addTotalScore() {
   } else {
     return currentTotal += rollCount;
   }
+}
+
+// User Interface
+
+function switchActivePlayer(){
+  if ()
 }
