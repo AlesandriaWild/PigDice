@@ -44,7 +44,3 @@ function addTotalScore() {
 }
 
 // User Interface
-
-function switchActivePlayer(){
-  if ()
-}
