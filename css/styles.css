@@ -1,0 +1,21 @@
+.jumbotron-fluid {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.bg {
+  background-color: rgb(40, 40, 40);
+  color: aquamarine;
+}
+
+.btn-color {
+  color:aquamarine;
+  background-color: rgb(153, 153, 153);
+  margin:0 auto;
+  display:block;
+}

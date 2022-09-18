@@ -31,11 +31,11 @@ function Player(playerName) {
   this.hasDice = false;
 }
 
-function dieRoll() {
+Player.prototype.dieRoll = function () {
   rollCount = Math.floor(Math.random() * 6) + 1; 
 }
 
-function addTotalScore() {
+Player.prototype.addTotalScore = function () {
   if (rollCount === 1) {
     return this.currentTotal = 0;
   } else {
