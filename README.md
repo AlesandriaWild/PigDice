@@ -17,6 +17,8 @@ function activePlayer()
 
 function diceRoll()
 
+function totalScore()
+
 funciton hold()
 
 
@@ -43,10 +45,16 @@ Test "It will return a randomly generated number out of 6"
 Code: let roll = dieRoll()
 Expected Output: 1, 2, 3, 4, 5, 6
 
-Test
-Code:
-Expected Output:
+Describe: totalScore()
 
-Test
+Test: "It will return total points after a roll"
 Code:
-Expected Output:
+const totalScore = 0;
+const rollCount = 5;
+Expected Output: 5
+
+Test: "It will return 0 if a roll equals 1"
+Code:
+const totalScore = 0;
+const rollCount = 1;
+Expected Output: 0
