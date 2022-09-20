@@ -10,25 +10,45 @@
     <div class ="header">
       <h1> Pig Dice!</h1>
     </div>
+    <div class="rules">
+      The rules of Pig Dice are:
+      <ol>
+        <li>Each turn a player rolls the die, until the play rolls a 1 or player "holds". If a play rolls a 1, no score is given to the player for that round.</li>
+        <li>If the player rolls any number 2-6 it will be added to the players total score.</li>
+        <li>To pass the turn to the next player, the current player needs to "hold" their turn, or roll a 1.</li>
+        <li>The first player to 100 wins the game!</li>
+      </ol>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <form id="game">
       <button class = "btn-color" type="submit" id="btn">Start a game of Pig Dice!</button>
     </form>
+    <br>
     <div class="row">
-      <div class="container col-4">
-        <p>Player One's Current Score:</p>
+      <div class="container col-6">
+        <p>Player One's Current Turn Score:</p>
+        <div id="p1-buttons" class="hidden">
+          <button class="btn-roll" type="submit" id="rollP1">Roll</button>
+          <button class="btn-hold" type="submit" id="holdP1">Hold</button>
+        </div>
+        <p id="player1-total">Total Score:<span id="player1Total"></span></p>
       </div>
-      <div class="container col-4">
-        <p>Player Two's Curent Score:</p>
+      <div class="container col-6">
+        <p>Player Two's Curent Turn Score:</p>
+        <div id="p2-buttons" class="hidden">
+          <button class="btn-roll" type="submit" id="rollP1">Roll</button>
+          <button class="btn-hold" type="submit" id="holdP1">Hold</button>
+        </div>
+        <p>Total Score:<span id="player2Total"></span><p>
       </div>
-      <div class="container col-4">
-        The rules of Pig Dice are:
-        <ol>
-          <li>Each turn a player rolls the die, until the play rolls a 1 or player "holds". If a play rolls a 1, no score is given to the player for that round.</li>
-          <li>If the player rolls any number 2-6 it will be added to the players total score.</li>
-          <li>To pass the turn to the next player, the current player needs to "hold" their turn, or roll a 1.</li>
-          <li>The first player to 100 wins the game!</li>
-        </ol>
-      </div>
+      
     </div>
   </body>
 </html>

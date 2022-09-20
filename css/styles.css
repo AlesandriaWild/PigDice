@@ -11,6 +11,10 @@
 .bg {
   background-color: rgb(40, 40, 40);
   color: aquamarine;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .btn-color {
@@ -18,4 +22,10 @@
   background-color: rgb(153, 153, 153);
   margin:0 auto;
   display:block;
+}
+
+.rules  {
+  color: aquamarine;
+  background-color: rgb(40, 40, 40);
+  float: left;
 }

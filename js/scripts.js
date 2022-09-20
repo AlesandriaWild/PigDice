@@ -1,5 +1,5 @@
 //Business Logic
-
+  //game business logic
 function PigDice(playerOne, playerTwo) {
   this.playerOne = playerOne;
   this.playerTwo = playerTwo;
