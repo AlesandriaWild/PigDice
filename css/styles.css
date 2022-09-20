@@ -6,7 +6,10 @@
 
 .header {
   text-align: center;
-}
+  color:rgb(0, 196, 170);
+  background-image: url(https://i.etsystatic.com/21580498/r/il/af7228/3007207538/il_794xN.3007207538_cfvf.jpg);
+  background-size: 100px; ;
+} 
 
 .bg {
   background-color: rgb(40, 40, 40);
@@ -32,9 +35,4 @@
 
 .hidden {
   display: none;
-}
-
-img#pigdice {
-height: 180px;
-width: auto;
 }

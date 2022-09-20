@@ -1,9 +1,9 @@
 //Business Logic
   //game business logic
-function PigDice(playerOne, playerTwo) {
+function PigDice(playerOne, playerTwo, activePlayer) {
   this.playerOne = playerOne;
   this.playerTwo = playerTwo;
-  this.activePlayer;
+  this.activePlayer = activePlayer;
 }
 
 PigDice.prototype.activePlayer = function () {
@@ -21,7 +21,7 @@ PigDice.prototype.activePlayer = function () {
   }
 }
 
-//player business logic
+  //player business logic
 
 function Player(playerName) {
   this.playerName = playerName;
