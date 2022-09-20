@@ -29,3 +29,12 @@
   background-color: rgb(40, 40, 40);
   float: left;
 }
+
+.hidden {
+  display: none;
+}
+
+img#pigdice {
+height: 180px;
+width: auto;
+}
