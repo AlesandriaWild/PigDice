@@ -6,9 +6,10 @@
 
 .header {
   text-align: center;
-  color:rgb(0, 196, 170);
+  color: aquamarine;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
   background-image: url(https://i.etsystatic.com/21580498/r/il/af7228/3007207538/il_794xN.3007207538_cfvf.jpg);
-  background-size: 100px; ;
+  background-size: 101px; ;
 } 
 
 .bg {

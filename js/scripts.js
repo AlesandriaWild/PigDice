@@ -44,3 +44,10 @@ Player.prototype.addTotalScore = function () {
 }
 
 // User Interface
+window.addEventListener("click", function(event) {
+  event.preventDefault();
+  let playerOne = Player("player1");
+  let playerTwo = Player("player2");
+
+})
+
